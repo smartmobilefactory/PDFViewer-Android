@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  	xmlns:android="http://schemas.android.com/apk/res/android"
+  	android:orientation="vertical"
+  	android:layout_width="fill_parent"
+  	android:layout_height="fill_parent"
+  	android:background="@android:color/white">
+  	<LinearLayout 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:background="@drawable/pic_background_navi_bar">
+		<ImageButton 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@drawable/button_navi_bar_back"
+			android:id="@+id/navibar_back"
+			android:layout_margin="10dp"/>
+		<TextView 
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:id="@+id/navibar_text"
+			android:textColor="@android:color/black"
+			android:textSize="18dp"
+			android:gravity="center|left"
+			android:paddingLeft="65dp"
+			android:text="IMPRESSUM"
+			android:layout_weight="1"/>
+	</LinearLayout>
+    <WebView 
+    	android:id="@+id/web_view"
+    	android:layout_margin="10dp"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"/>
+</LinearLayout>

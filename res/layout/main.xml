@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/pic_background_home" >
+    <EditText 
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:id="@+id/edit_user"
+    	android:layout_centerHorizontal="true"
+    	android:layout_below="@+id/btn_impressum"
+    	android:layout_marginTop="50dp"
+    	android:textColor="@color/text_color"
+    	android:gravity="center"
+    	android:text="PDFViewer"
+    	android:background="@drawable/pic_form"/>
+    <EditText 
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:id="@+id/edit_pass"
+    	android:gravity="center"
+    	android:background="@drawable/pic_form"
+    	android:layout_centerHorizontal="true"
+    	android:layout_below="@+id/edit_user"
+    	android:layout_marginTop="15dp"
+    	android:hint="Passwort"
+    	android:textColorHint="@color/text_color"
+    	android:textColor="@color/text_color"/>
+    <ImageButton 
+    	android:background="@drawable/button_impressum"
+    	android:id="@+id/btn_impressum"
+    	android:layout_alignParentRight="true"
+    	android:layout_alignParentTop="true"
+    	android:layout_marginRight="15dp"
+    	android:layout_marginTop="201dp"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"/>
+    <ImageButton 
+    	android:background="@drawable/button_login"
+    	android:id="@+id/btn_login"
+    	android:layout_centerHorizontal="true"
+    	android:layout_below="@+id/edit_pass"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_marginTop="20dp"/>
+</RelativeLayout>

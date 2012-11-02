@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  	xmlns:android="http://schemas.android.com/apk/res/android"
+  	android:orientation="vertical"
+  	android:layout_width="fill_parent"
+  	android:layout_height="fill_parent"
+  	android:background="@drawable/pic_background_home">
+  	<ImageButton 
+    	android:background="@drawable/button_impressum"
+    	android:id="@+id/btn_impressum"
+    	android:layout_alignParentRight="true"
+    	android:layout_alignParentTop="true"
+    	android:layout_marginRight="15dp"
+    	android:layout_marginTop="220dp"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"/>
+	<android.support.v4.view.ViewPager
+    	android:layout_width="fill_parent"
+    	android:layout_height="265dp"
+    	android:id="@+id/library_pager"
+    	android:layout_above="@+id/library_pager_indicator"
+    	android:layout_marginBottom="8dp"/>
+    <com.jakewharton.android.viewpagerindicator.CirclePageIndicator
+    	android:id="@+id/library_pager_indicator"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentBottom="true"
+    	android:layout_marginBottom="8dp"/>
+</RelativeLayout>
