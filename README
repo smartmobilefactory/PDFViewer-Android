@@ -1,1 +1,7 @@
 Uses the ViewPagerIndicator: https://github.com/JakeWharton/Android-ViewPagerIndicator
+Uses muPDF: http://code.google.com/p/mupdf/
+
+This code is licensed under LGPL.
+
+You will need to compile the JNI code yourself. Start here for more info: http://developer.android.com/guide/practices/jni.html#native_libraries
+
